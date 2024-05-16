@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat+Alternates:wght@200;400&display=swap"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Shamanic LOVE</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="menu">
+            <li class="menu-item">
+              <a class="menu-link" href="#aboutus">О нас</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="#work">Этапы работы</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="#contact">Связаться</a>
+            </li>
+          </ul>
+          <a class="logo">
+            <img class="logo-img" src="images/logo.png" alt="Логотип сайта"
+          /></a>
+          <a class="phone" href="tel:89807023286">8 980 702-32-86</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="headline">
+        <div class="container">
+          <img
+            src="images/Shaming_LOVE.png"
+            alt="Shaming_LOVE"
+            class="headline-img"
+          />
+        </div>
+      </section>
+      <section class="new">
+        <div class="container">
+          <div id="aboutus"></div>
+          <h2 class="new-title">О нас</h2>
+          <div class="new-info">
+            <div class="new-text">
+              <p>
+                Shamanic LOVE - это не просто организация торжеств. Мы стремимся
+                к тому, чтобы каждая свадьба была уникальной и запоминающейся.
+                Мы специализируемся на полной разработке всех элементов, декора
+                и координации, но мы не ограничиваемся обычными подходами. Мы
+                делаем все по-новому, нестандартно и, конечно же, круто.
+              </p>
+              <p>
+                Но наша работа не ограничивается только разработкой свадебных
+                мероприятий. Мы также готовы поделиться своими знаниями и опытом
+                с вами. Мы предлагаем консультации для тех, кто хочет создать
+                свадьбу своей мечты самостоятельно. Мы с удовольствием поделимся
+                с вами тайнами организации свадебного торжества, поможем с
+                выбором элементов декора, дадим советы по планированию и
+                координации, чтобы ваша свадьба была такой, какой вы ее видите.
+              </p>
+              <p>
+                Не стесняйтесь быть уникальными, именно так рождаются самые
+                яркие воспоминания. Доверьтесь нам, и мы подарим вам
+                незабываемый праздник, о котором будет вспоминать всю вашу
+                жизнь.
+              </p>
+            </div>
+            <img class="images-new" src="images/flo.jpg" alt="Цветы" />
+          </div>
+        </div>
+      </section>
+      <section class="co">
+        <div class="container">
+          <div id="work"></div>
+          <h2 class="co-title">Этапы работы</h2>
+          <ul class="co-list">
+            <li class="co-item">
+              <h4>1. Встреча</h4>
+              <p>
+                На этом этапе происходит встреча с Вами, обсуждение идеи,
+                предпочтений и бюджета, чтобы создать уникальную концепцию
+                мероприятия.
+              </p>
+            </li>
+            <li class="co-item">
+              <h4>2. Подбор декора</h4>
+              <p>
+                На втором этапе мы занимаемся поиском и подбором декора, мебели
+                и других элементов, соответствующих концепции.
+              </p>
+            </li>
+            <li class="co-item">
+              <h4>3. Декорирование</h4>
+              <p>
+                В день мероприятия агентство занимается декорированием места
+                проведения, устанавливая все элементы декора на свои места.
+              </p>
+            </li>
+            <li class="co-item">
+              <h4>4. Поддержка</h4>
+              <p>
+                Свадебное агентство оказывает поддержку во время проведения
+                свадьбы, чтобы убедиться, что все декорации находятся на своих
+                местах и создают желаемую атмосферу.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="cont">
+        <div class="container">
+          <div id="contact"></div>
+          <div class="contacts-inner">
+            <form
+              class="contacts-form"
+              id="myForm"
+              action="http://localhost:3000/submit-form"
+              method="POST"
+            >
+              <h2 class="contacts-title">ХОЧЕШЬ СВАДЬБУ МЕЧТЫ?</h2>
+              <input
+                class="contacts-input"
+                type="text"
+                name="name"
+                placeholder="Ваше имя"
+              />
+              <input
+                class="contacts-input"
+                type="tel"
+                name="phone"
+                placeholder="Номер телефона"
+              />
+              <p>В ближайшее время наш менеджер свяжеться с Вами</p>
+              <button type="submit">ОТПРАВИТЬ</button>
+            </form>
+            <img src="images/contact.jpg" alt="Контакты" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-inner">
+          <a class="phone" href="tel:89807023286">8 980 702-32-86</a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
